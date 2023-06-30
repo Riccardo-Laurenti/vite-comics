@@ -12,23 +12,27 @@ export default {
 </script>
 
 <template>
+
     <div class="container">
-        <!-- Header -->
         <AppHeader />
-        <!-- Main -->
         <AppMain />
-        <!-- Footer -->
         <AppFooter />
     </div>
+
 </template>
-<!-- Style -->
+
+
+<!-- Css Style -->
 <style>
-/* Css Reset */
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .container {
     height: 100vh;
     overflow-y: hidden;
