@@ -105,7 +105,7 @@ a {
     position: relative;
 }
 a.current {
-    color: blue;
+    color: rgb(58, 58, 255);
 }
 a.current::after {
     content: "";

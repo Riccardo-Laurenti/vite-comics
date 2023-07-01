@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-    <!-- Footer -->
+
     <footer>
         <section id="socials-about-us">
             <div class="sign-in-btn">
@@ -27,7 +27,9 @@ export default {
 </template>
 
 <style lang="scss">
+
 @import '../assets/scss/style.scss';
+
 #socials-about-us {
     display: flex;
     align-items: center;
@@ -36,17 +38,19 @@ export default {
 }
 .sign-in-btn button {
     background-color: transparent;
-    border: 2px solid blue;
+    border: 2px solid rgb(58, 160, 255);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
 }
+
 .socials-links {
     display: flex;
     align-items: center;
 }
+
 .socials-links h2 {
-    color: blue;
+    color: rgb(75, 183, 255);
     margin-right: 10px;
     padding: 20px;
 }
