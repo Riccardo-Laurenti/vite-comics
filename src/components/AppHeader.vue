@@ -58,7 +58,7 @@ export default {
     },
     methods: {
         handleLinkClick(item) {
-            //Modifica nella navbar le a se cliccate
+           
             item.current = true;
             this.data.forEach((i) => {
                 if (i !== item) {
@@ -91,7 +91,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Open+Sans+Condensed:wght@700&display=swap');
 /* Header */
 header {
-    height: 150px;
+    height: 130px;
 }
 nav {
     display: flex;

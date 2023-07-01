@@ -25,6 +25,7 @@ export default {
         </section>
     </footer>
 </template>
+
 <style lang="scss">
 @import '../assets/scss/style.scss';
 #socials-about-us {
