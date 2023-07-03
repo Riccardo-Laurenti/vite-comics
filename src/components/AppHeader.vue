@@ -89,24 +89,35 @@ export default {
 <style lang="scss">
 @import '../assets/scss/style.scss';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Open+Sans+Condensed:wght@700&display=swap');
-/* Header */
+
+
+
 header {
     height: 130px;
 }
+
+
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 10px
 }
+
+
 a {
     text-decoration: none;
     color: black;
     position: relative;
 }
+
+
 a.current {
     color: rgb(58, 58, 255);
 }
+
+
+
 a.current::after {
     content: "";
     position: absolute;
@@ -116,4 +127,5 @@ a.current::after {
     height: 2px;
     background-color: blue;
 }
+
 </style>

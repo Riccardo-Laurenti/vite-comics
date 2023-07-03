@@ -24,12 +24,13 @@ a {
     position: relative;
 }
 
-/* Section Content */
+
 #content {
     background-color: $bgContent;
     color: white;
 }
-/* Section Info */ 
+
+
 #info-shop {
     background-color: $bgShop ;
     display: flex;
@@ -37,7 +38,8 @@ a {
     align-items: center;
 }
 
-/* Section Links -*/
+
+
 .logo {
     position: absolute;
     bottom: 20px;
@@ -49,7 +51,9 @@ a {
 }
 
 
-/* Footer */
+
+
+
 footer {
     background-color: $bgContent;
     z-index: 1;
